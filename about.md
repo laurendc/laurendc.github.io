@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+Blog for Lauren Caliolio, a person who cannot seem to escape the tech industry no matter how hard she tries. Current interests and work include: infrastructure, all things cloud, automation, and OSS.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[email](mailto:laurendc@gmail.com)
