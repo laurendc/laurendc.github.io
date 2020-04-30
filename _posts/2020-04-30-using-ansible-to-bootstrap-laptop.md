@@ -92,9 +92,11 @@ We manage our `brew` and `brew cask` installation tasks separately in order to t
         - install_brew_cask_packages
 ```
 {% endraw %}
+
 ### Setting up an ssh key and pushing it up to Github
 To do this, we need a Github Access key. I'm using `ansible-vault` to manage this. From there, we have the following tasks which work flawlessly to generate our keypair and push the public key up to our Github:
 
+{% raw %}
 ```yaml
 - name: Create directory for ssh keys
   file:
@@ -123,10 +125,12 @@ To do this, we need a Github Access key. I'm using `ansible-vault` to manage thi
     mode: '0600'
     backup: yes
 ```
+{% endraw %}
 
 ### Configuring already existing dotfiles
 We're doing a bit of cheating here. We're cloning an existing dotfiles repository from Github, and then running a shell script located within the project that will create symlinks to the dotfiles listed within the project. This also contains a <strike>horrible-but-functional</strike> bash script that I'll have to port over to <strike>Go</strike> Ansible eventually. 
 
+{% raw %}
 ```yaml
 - name: Clone dotfiles
   git:
@@ -140,6 +144,7 @@ We're doing a bit of cheating here. We're cloning an existing dotfiles repositor
   shell: "{{ repo_home }}/dotfiles/makesymlinks.sh"
   ignore_errors: True
 ```
+{% endraw %}
 
 For my current needs, this is a playbook that is more than suitable.
 
