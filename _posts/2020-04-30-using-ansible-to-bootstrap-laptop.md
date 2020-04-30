@@ -46,7 +46,7 @@ This directory structure follows the concept of breaking up various groups of va
   
 Packages installations are handled with [Homebrew](https://brew.sh/), which has to be installed first.  We have our desired packages split into two lists based on which type of Homebrew package they are and these are located in the `defaults/packages.yml`:
 
-```
+```yaml
 brew_packages:
   - git
   - vim
