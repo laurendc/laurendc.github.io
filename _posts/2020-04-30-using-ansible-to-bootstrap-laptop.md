@@ -71,6 +71,7 @@ brew_cask_packages:
 
 We manage our `brew` and `brew cask` installation tasks separately in order to take advantage of disparate tagging, which is nice for maintaining the play over the course of time. Here they are in the `main.yml`:
 
+{% raw %}
 ```yaml
     - name: brew install packages
       homebrew: 
@@ -90,7 +91,7 @@ We manage our `brew` and `brew cask` installation tasks separately in order to t
         - install
         - install_brew_cask_packages
 ```
-
+{% endraw %}
 ### Setting up an ssh key and pushing it up to Github
 To do this, we need a Github Access key. I'm using `ansible-vault` to manage this. From there, we have the following tasks which work flawlessly to generate our keypair and push the public key up to our Github:
 
