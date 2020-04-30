@@ -46,7 +46,7 @@ This directory structure follows the concept of breaking up various groups of va
   
 Packages installations are handled with [Homebrew](https://brew.sh/), which has to be installed first.  We have our desired packages split into two lists based on which type of Homebrew package they are and these are located in the `defaults/packages.yml`:
 
-```
+```yaml
 brew_packages:
   - git
   - vim
@@ -67,11 +67,11 @@ brew_cask_packages:
   - virtualbox
   - signal
   - istat-menus
-  ```
+```
 
 We manage our `brew` and `brew cask` installation tasks separately in order to take advantage of disparate tagging, which is nice for maintaining the play over the course of time. Here they are in the `main.yml`:
 
-```
+```yaml
     - name: brew install packages
       homebrew: 
         name:
@@ -94,7 +94,7 @@ We manage our `brew` and `brew cask` installation tasks separately in order to t
 ### Setting up an ssh key and pushing it up to Github
 To do this, we need a Github Access key. I'm using `ansible-vault` to manage this. From there, we have the following tasks which work flawlessly to generate our keypair and push the public key up to our Github:
 
-```
+```yaml
 - name: Create directory for ssh keys
   file:
     path: "{{ profile_dir }}/.ssh"
@@ -126,7 +126,7 @@ To do this, we need a Github Access key. I'm using `ansible-vault` to manage thi
 ### Configuring already existing dotfiles
 We're doing a bit of cheating here. We're cloning an existing dotfiles repository from Github, and then running a shell script located within the project that will create symlinks to the dotfiles listed within the project. This also contains a <strike>horrible-but-functional</strike> bash script that I'll have to port over to <strike>Go</strike> Ansible eventually. 
 
-```
+```yaml
 - name: Clone dotfiles
   git:
     repo: git@github.com:laurendc/dotfiles.git
