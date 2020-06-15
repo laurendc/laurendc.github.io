@@ -1,6 +1,6 @@
 ---
 layout: post
-title: #100DaysofCode: Day0: Time to level up my Go
+title: "#100DaysofCode: Day0: Time to level up my Go"
 ---
 
 I've decided to give [#100DaysofCode](https://www.100daysofcode.com/) a try to level up  my Go skills a bit. Currently, my Go usage is largely linked to work & primarily with functional testing through the usage of [terratest](https://github.com/gruntwork-io/terratest). I've got a rudimentary todo app and [introductory Coursera course](https://www.coursera.org/learn/golang-getting-started) in a half-assed state of completion. Time to change this!
