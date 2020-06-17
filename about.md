@@ -8,4 +8,4 @@ Blog for Lauren Caliolio, a person who cannot seem to escape the tech industry n
 
 ### Contact me
 
-[linkedin](https://www.linkedin.com/in/laurendc/)
+I'm not able to justify investing the time spent in figuring out how to make comments work on this blog, nor do I care that much for having them here. You may hit me up on LinkedIn instead: [linkedin](https://www.linkedin.com/in/laurendc/)
