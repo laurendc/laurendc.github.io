@@ -11,7 +11,8 @@ However, it was also nice to dig through [verbs](https://golang.org/pkg/fmt/#hdr
 
 Link to work: I'll add this fun snippet.
 
-```
+{% raw %}
+```go
 package main
 
 import "fmt"
@@ -34,3 +35,4 @@ func main() {
   fmt.Printf("Each share of Gopher feed is %.2f!", stockPrice)
 }
 ```
+{% endraw %}
