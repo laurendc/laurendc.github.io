@@ -5,7 +5,7 @@ title: "#100DaysofCode - Day3: Conditionals"
 
 Today's Progress: Finished the conditionals section. Refresher on case, switch, shorthand bits.
 
-Thoughts: Getting a bit more interesting, although there wasn't much that was new here.
+Thoughts: Getting a bit more interesting, although there wasn't much that was new here. Added pretty colors to our Markdown snippet.
 
 Link to work: No link, but here's our bank heist:
 
