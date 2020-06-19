@@ -6,6 +6,7 @@ permalink: /100daysofcode/
 
 ### Learning Go through CodeAcademy
 Time estimate: 5-6 hours. Less if you're not distracted.
+
 Overall Impression: Beginner-friendly. For me, it was a bit slow as I was using it as a refresher on syntax and other items and may have underestimated myself.
 
 I'd say this course is good for someone with little-to-no programming experience, or someone who is transitioning from procedural programming to OOP. I would not recommend it for someone with OOP experience.
