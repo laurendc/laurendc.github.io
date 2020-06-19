@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "100DaysofCode"
+title: "#100DaysofCode"
 permalink: /#100daysofcode/
 ---
 
