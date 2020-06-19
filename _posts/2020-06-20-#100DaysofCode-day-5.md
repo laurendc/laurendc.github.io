@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#100DaysofCode - Day5: Wrapping up Functions & Intersteller Travel Exercise"
+title: "#100DaysofCode - Day5: Wrapping up Functions & Interstellar Travel Exercise"
 ---
 
 Today's Progress: Finished plowing through basic functions, cranked through a practical exercise.
