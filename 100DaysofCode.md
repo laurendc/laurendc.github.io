@@ -11,7 +11,7 @@ Overall Impression: Beginner-friendly. For me, it was a bit slow as I was using 
 
 I'd say this course is good for someone with little-to-no programming experience, or someone who is transitioning from procedural programming to OOP. I would not recommend it for someone with OOP experience.
 
-[Day5: Wrapping Up Functions, Interstellar Travel Exercise](https://laurendc.github.io/100DaysofCode-day-5)
+[Day5: Wrapping up Functions, Addresses, Pointers](https://laurendc.github.io/100DaysofCode-day-5)
 
 [Day4: Functions](https://laurendc.github.io/100DaysofCode-day-4)
 
