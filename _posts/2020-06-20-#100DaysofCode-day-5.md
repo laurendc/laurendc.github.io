@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "#100DaysofCode - Day5: Wrapping up Functions & Interstellar Travel Exercise"
+title: "#100DaysofCode - Day5: Wrapping up Functions, Addresses, Pointers."
 ---
 
-Today's Progress: Finished plowing through basic functions, cranked through a practical exercise.
+Today's Progress: Finished plowing through basic functions, cranked through a practical exercise. Pointers.
 
-Thoughts: Started slow & I was quite easily distracted. However, this ended by the time I got to the exercise. The exercise itself wasn't too challenging but it was far more interesting than anything else that's happened with the course so far.
+Thoughts: Started slow & I was quite easily distracted. However, this ended by the time I got to the exercise. The exercise itself wasn't too challenging but it was far more interesting than anything else that's happened with the course so far. Then jumped into addresses and pointers which was a good review for me. With that, I completed the course, yay!
 
-Link to work: Here's our exercise.
+Link to work: Here's our interstellar exercise.
 
 {% raw %}
 ```go
