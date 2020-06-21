@@ -4,8 +4,15 @@ title: "#100DaysofCode"
 permalink: /100daysofcode/
 ---
 
-### Learning Go through CodeAcademy
-Time estimate: 5-6 hours. Less if you're not distracted.
+### Coursera: Getting Started with Go
+Time estimate: TBD.
+
+Overall Impression: Good for intermediate programmers. I'm enjoying it so far.
+
+[Day6: Pointers, types, control flow, scan](https://laurendc.github.io/100DaysofCode-day-6/)
+
+### CodeAcademy: Learn Go
+Time estimate: 5-6 hours. Less if you're not distracted. [link](https://www.codecademy.com/learn/learn-go)
 
 Overall Impression: Beginner-friendly. For me, it was a bit slow as I was using it as a refresher on syntax and other items and may have underestimated myself.
 
