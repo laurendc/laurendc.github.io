@@ -4,6 +4,13 @@ title: "#100DaysofCode"
 permalink: /100daysofcode/
 ---
 
+### HackerRank Problems
+Time estimate: As long as you'd like. I keep it to at least an hour.
+
+Overall Impression: Good for brushing up on syntax! I like being able to earn badges.
+
+[Day7: Day7: Got bored with Coursera. Working through HackerRank.](https://laurendc.github.io/100DaysofCode-day-7/)
+
 ### Coursera: Getting Started with Go
 Time estimate: TBD.
 
